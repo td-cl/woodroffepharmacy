@@ -1,0 +1,22 @@
+body {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+h1 {
+    color: #1A237E;
+}
+ul {
+    list-style-position: inside;
+    vertical-align:center;
+}
+.contact, .location, .hours {
+    background-color:#7F0000;
+    color: white;
+    font-family: "Merriweather", sans-serif;
+}
+h3 {
+    color: #1A237E;
+    font-weight:bold;
+}

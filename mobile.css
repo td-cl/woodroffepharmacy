@@ -4,6 +4,12 @@ body {
     text-align: center;
     font-family: "Merriweather", serif;
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
 h1 {
     color: #1A237E;
 }
@@ -14,9 +20,15 @@ ul {
 .contact, .location, .hours {
     background-color:#7F0000;
     color: white;
-    font-family: "Merriweather", sans-serif;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 150%;
 }
 h3 {
     color: #1A237E;
     font-weight:bold;
+}
+.sub_contact {
+    font-weight: normal;
+    font-size: 70%;
 }

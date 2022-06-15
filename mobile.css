@@ -48,15 +48,3 @@ img {
     font-size: 16px;
     font-weight: bold;
 }
-@media screen and (min-width: 720px) {
-    .pharmacist {
-        display: block
-    }
-    .info {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .info > :not(:first-child) {
-        margin-top: 0;
-    }
-}

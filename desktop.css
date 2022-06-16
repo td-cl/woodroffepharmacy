@@ -4,12 +4,6 @@
         width: 60%;
         padding: 60px;
     }
-    body {
-        color: black;
-        background-color: white;
-        text-align: center;
-        font-family: "Merriweather", serif;
-    }
     .logo {
         display: block;
         margin-left: 10px;
@@ -17,42 +11,11 @@
         margin-top: 24px
     }
     .tagline {
-        color: #1A237E;
-        font-weight: bold;
-        font-size: 24px;
         text-align: left;
     }
-    .services {
-        vertical-align: center;
-        font-size: 20px;
-        margin-top: 8px;
-    }
     .info {
-        background-color:#7F0000;
-        color: white;
-        font-family: "Merriweather", serif;
-        padding: 40px;
-        font-weight: normal;
-        font-size: 16px;
-        margin-top: 40px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    }
-    .info > :not(:first-child) {
-     margin-top: 32px;
-    }
-    .contact > :not(:last-child),
-    .hours > :not(:last-child),
-    .location > :not(:last-child) {
-        margin-bottom: 14px;
-    }
-    .header {
-        font-size: 24px;
-        font-weight: bold;
-    }
-    .label {
-        font-size: 16px;
-        font-weight: bold;
     }
     .info > :not(:first-child) {
         margin-top: 0;

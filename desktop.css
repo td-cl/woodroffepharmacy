@@ -1,0 +1,33 @@
+@media screen and (min-width: 720px) {
+    .pharmacist {
+        display: block;
+        width: 60%;
+        padding: 60px;
+    }
+    .logo {
+        display: block;
+        margin-left: 10px;
+        width: 65%;
+        margin-top: 24px
+    }
+    .tagline {
+        text-align: left;
+    }
+    .info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .info > :not(:first-child) {
+        margin-top: 0;
+    }
+    .intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .intro > :not(:first-child) {
+        margin-top: 0;
+    }
+    .services {
+        text-align: left;
+    }
+}

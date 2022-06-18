@@ -56,7 +56,7 @@ img {
 }
 .meet_pic1, .meet_pic2, .meet_pic3{
     display: block;
-    width: 640px;
+    width: 360px;
     margin-bottom: 8px;
 }
 .meet_person1, .meet_person2, .meet_person3 {

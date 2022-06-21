@@ -48,3 +48,34 @@ img {
     font-size: 16px;
     font-weight: bold;
 }
+.about > :not(:first-child) {
+    margin-top: 32px;
+}
+.meet_team {
+    color: #1A237E;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 12px;
+}
+.meet_pic {
+    display: block;
+    width: 360px;
+    margin-bottom: 8px;
+}
+.meet_person {
+    margin-top: 16px;
+    color: #1A237E;
+    font-weight: bold;
+    font-size: 24px;
+}
+.person_title {
+    margin-top: 4px;
+    color: #1A237E;
+    font-weight: bold;
+    font-size: 20px;
+} 
+.person_info {
+    margin-left: 72px;
+    margin-right: 72px;
+    text-align: justify;
+}

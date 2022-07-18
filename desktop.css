@@ -30,9 +30,9 @@
     .services {
         text-align: left;
     }
-    .meet1, .meet2, .meet3 {
+    .meet {
         display: grid;
-        padding: 240px;
+        padding: 48px;
         grid-template-columns: 1fr 1fr;
         align-content: center;
     }
@@ -40,6 +40,9 @@
         display: block;
         width: 560px;
         margin-bottom: 8px;
+    }
+    .meet_team {
+        font-size: 48px;
     }
     .meet_person {
         margin-top: 16px;

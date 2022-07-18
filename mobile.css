@@ -20,6 +20,7 @@ body {
     background-color: white;
     text-align: center;
     font-family: "Merriweather", serif;
+    margin: 0;
 }
 img {
     display: block;
@@ -64,6 +65,9 @@ img {
 .label {
     font-size: 16px;
     font-weight: bold;
+}
+.about {
+    padding: 40px;
 }
 .about > :not(:first-child) {
     margin-top: 32px;

@@ -1,3 +1,23 @@
+.bar{  
+    background-color: #1A237E;
+    top: 0;
+    color: white;
+    font-size: 24px;
+    position: sticky;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 16px;
+    z-index: 1;
+    height: 41px;
+}
+.bar_links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    right: 5px;
+}
+a {
+ color: white;
+}
 body {
     color: black;
     background-color: white;
